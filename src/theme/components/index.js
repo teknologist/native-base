@@ -12,7 +12,6 @@ import buttonTheme from './Button';
 import titleTheme from './Title';
 import checkBoxTheme from './CheckBox';
 import radioTheme from './Radio';
-import itemTheme from './Item';
 import labelTheme from './Label';
 import textAreaTheme from './Textarea';
 import textTheme from './Text';
