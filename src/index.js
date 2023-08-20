@@ -5,7 +5,6 @@ import { Col, Row, Grid } from 'react-native-easy-grid';
 import setDefaultThemeStyle from './init';
 import getTheme from './theme/components';
 import variables from './theme/variables/platform';
-import { SwipeRow } from './basic/SwipeRow';
 import { Text } from './basic/Text';
 import { Button } from './basic/Button';
 import { IconNB } from './basic/IconNB';
