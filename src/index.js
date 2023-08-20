@@ -40,16 +40,12 @@ export {
   Radio,
   Spinner,
   Switch,
-  ListItem,
-  Item,
   Label,
   Textarea,
   Col,
   Row,
   Grid,
   Text,
-  SwipeRow,
-  VueNativeBase,
 };
 
 const mapPropsToStyleNames = (styleNames, props) => keys(props);
