@@ -19,11 +19,9 @@ import { CheckBox } from './basic/Checkbox';
 import { Radio } from './basic/Radio';
 import { Spinner } from './basic/Spinner';
 import { Switch } from './basic/Switch';
-import { ListItem } from './basic/ListItem';
 import { Item } from './basic/Item';
 import { Label } from './basic/Label';
 import { Textarea } from './basic/Textarea';
-import VueNativeBase from './vue-native.js';
 
 setDefaultThemeStyle();
 // Theme
