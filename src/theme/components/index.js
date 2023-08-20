@@ -64,10 +64,6 @@ export default (variables /* : * */ = variable) => {
       ...spinnerTheme(variables)
     },
 
-    'NativeBase.Item': {
-      ...itemTheme(variables)
-    },
-
     'NativeBase.Label': {
       ...labelTheme(variables)
     },
