@@ -20,6 +20,9 @@ import { Spinner } from './basic/Spinner';
 import { Switch } from './basic/Switch';
 import { Label } from './basic/Label';
 import { Textarea } from './basic/Textarea';
+import {Item} from './basic/Item';
+import { Input } from './basic/Input';
+import { Thumbnail } from './basic/Thumbnail';
 
 setDefaultThemeStyle();
 // Theme
@@ -46,6 +49,9 @@ export {
   Row,
   Grid,
   Text,
+  Item,
+  Input,
+  Thumbnail
 };
 
 const mapPropsToStyleNames = (styleNames, props) => keys(props);
