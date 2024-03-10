@@ -27,7 +27,7 @@
       "node_modules/(?!react-native|@shoutem|react-clone-referenced-element|native-base-shoutem-theme)"
     ]
   },
-  "version": "2.15.3",
+  "version": "2.15.4",
   "license": "Apache-2.0",
   "dependencies": {
     "@codler/react-native-keyboard-aware-scroll-view": "1.0.1",
