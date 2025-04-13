@@ -60,14 +60,14 @@ class Button extends React.PureComponent {
       Platform.OS === PLATFORM.IOS || !variables.buttonUppercaseAndroidText
         ? this.props.children
         : React.Children.map(this.props.children, child =>
-            child && child.type === Text
-              ? React.cloneElement(child, {
-                uppercase: this.props.buttonUppercaseAndroidText === false
+          child && child.type === Text
+            ? React.cloneElement(child, {
+              uppercase: this.props.buttonUppercaseAndroidText === false
                 ? false : variables.buttonUppercaseAndroidText,
-                ...child.props
-              })
-              : child
-          );
+              ...child.props
+            })
+            : child
+        );
 
     const rootProps = this.prepareRootProps();
 
@@ -139,9 +139,9 @@ class Button extends React.PureComponent {
           this.props.transparent
             ? TouchableNativeFeedback.Ripple('transparent')
             : TouchableNativeFeedback.Ripple(
-                variables.androidRippleColor,
-                false
-              )
+              variables.androidRippleColor,
+              false
+            )
         }
         {...rootProps}
       >

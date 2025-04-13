@@ -22,8 +22,8 @@ class Spinner extends Component {
           this.props.color
             ? this.props.color
             : this.props.inverse
-            ? variables.inverseSpinnerColor
-            : variables.defaultSpinnerColor
+              ? variables.inverseSpinnerColor
+              : variables.defaultSpinnerColor
         }
         size={this.props.size ? this.props.size : 'large'}
       />

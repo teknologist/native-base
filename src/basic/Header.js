@@ -41,8 +41,8 @@ class Header extends Component {
             iosBarStyle
               ? iosBarStyle
               : platformStyle === 'material'
-              ? 'light-content'
-              : variables.iosStatusbar
+                ? 'light-content'
+                : variables.iosStatusbar
           }
           translucent={transparent ? true : translucent}
         />

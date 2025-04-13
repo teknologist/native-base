@@ -202,10 +202,10 @@ class Item extends Component {
                   this.props.last && isIcon
                     ? 40
                     : this.props.last
-                    ? 15
-                    : isIcon
-                    ? 26
-                    : 0,
+                      ? 15
+                      : isIcon
+                        ? 26
+                        : 0,
                 right: 0,
                 top: this.state.topAnim,
                 opacity: this.state.opacAnim,
@@ -283,10 +283,10 @@ class Item extends Component {
                   this.props.last && isImage
                     ? 57
                     : this.props.last
-                    ? 15
-                    : isImage
-                    ? 42
-                    : 0,
+                      ? 15
+                      : isImage
+                        ? 42
+                        : 0,
                 right: 0,
                 top: this.state.topAnim,
                 opacity: this.state.opacAnim,
@@ -326,10 +326,10 @@ class Item extends Component {
                   this.props.last && isImage
                     ? 10
                     : this.props.last
-                    ? 4
-                    : isImage
-                    ? 10
-                    : 0,
+                      ? 4
+                      : isImage
+                        ? 10
+                        : 0,
                 marginRight: 12,
               }}
             />

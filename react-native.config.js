@@ -1,5 +1,3 @@
 module.exports = {
-  dependency: {
-    assets: ['Fonts']
-  }
+   assets: ["node_modules/native-base/Fonts"]
 };
