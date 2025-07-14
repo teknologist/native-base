@@ -43,7 +43,7 @@ class Gravatar extends NativeBaseComponent {
     return computeProps(this.props, defaultProps);
   }
 
-  render() {
+  renderComponent() {
     const props = this.prepareRootProps();
 
     const uri = `${GRAVATAR_URI + md5(this.props.email)}?s=${

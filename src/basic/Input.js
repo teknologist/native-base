@@ -9,7 +9,7 @@ import variable from '../theme/variables/platform';
 import NativeBaseComponent from './Base/NativeBaseComponent';
 
 class Input extends NativeBaseComponent {
-  render() {
+  renderComponent() {
     const variables = this.context.theme
       ? this.context.theme['@@shoutem.theme/themeStyle'].variables
       : variable;

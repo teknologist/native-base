@@ -860,6 +860,10 @@ declare module "native-base" {
 			style?: any;
 		}
 
+		interface ThemeProvider extends Testable {
+			style?: any;
+		}
+
 		interface SwipeRow extends Testable {
 			leftOpenValue?: number;
 			rightOpenValue?: number;
@@ -1168,6 +1172,8 @@ declare module "native-base" {
 	export class Label extends React.Component<NativeBase.Label, any> { }
 
 	export class StyleProvider extends React.Component<NativeBase.StyleProvider, any> { }
+
+	export class ThemeProvider extends React.Component<NativeBase.ThemeProvider, any> { }
 
 	export class ActionSheet {
 		static show: (
